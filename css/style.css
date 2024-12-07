@@ -59,3 +59,12 @@
 html {
     font-family: "Urbanist", sans-serif;
 }
+
+/* --- GLOBAL STYLES --- */
+
+/* headings */
+
+h1 {
+    font-size: var(--font-heading-s-1);
+    font-weight: var(--font-w-l);
+}
