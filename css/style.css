@@ -77,6 +77,10 @@ button {
 html {
     font-family: "Urbanist", sans-serif;
 }
+:focus, :focus-visible {
+    border: none;
+    outline: none;
+}
 
 /* --- GLOBAL STYLES --- */
 
@@ -172,6 +176,10 @@ p, span {
 }
 
 /* ---- CSS ---- */
+
+:focus {
+    outline: 3px solid var(--color-accent-bord-focus);
+}
 
 .header-img {
     width: 80px;
