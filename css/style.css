@@ -15,8 +15,8 @@
     --color-accent-text-mid: #D22D4D;
 
     /* components */
-    --color-accent-bg-default: #FBDADA;
-    --color-accent-bg-hover: #F7BBBE;
+    --color-accent-bg-default: #FDE8E7;
+    --color-accent-bg-hover: #FBDADA;
 
     /* borders */
     --color-accent-bord-focus: #D22D4D;
@@ -208,4 +208,6 @@ p, span {
         aspect-ratio: 1;
         border-radius: 50%;
     }
+
+    /* end code */
 }
