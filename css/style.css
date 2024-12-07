@@ -171,8 +171,8 @@ p, span {
 .btn:hover {
     background-color: var(--color-accent-bg-hover);
 }
-.btn:hover .btn a {
-    color: var(--color-neutral-text-high);
+.btn:hover a {
+    color: var(--color-accent-text-mid);
 }
 
 /* ---- CSS ---- */
