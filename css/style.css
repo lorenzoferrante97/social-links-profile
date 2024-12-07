@@ -92,6 +92,7 @@ p, span {
 .text-l-bold {
     font-size: var(--font-body-s-l);
     font-weight: var(--font-w-l);
+    color: var(--color-accent-text-mid);
 }
 
 /* flex styles */
