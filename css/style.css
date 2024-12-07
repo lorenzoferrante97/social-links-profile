@@ -1,5 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100..900&display=swap');
 
+:root {
+
+    /* --- COLORS --- */
+
+    /* bg */
+    --color-neutral-bg-default: #ffffff;
+    --color-neutral-bg-alt: #f5f5f5;
+
+    /* text */
+    --color-neutral-text-default: #52474B;
+    --color-neutral-text-high: #171214;
+    --color-neutral-text-low: #de455c;
+    --color-accent-text-mid: #D22D4D;
+
+    /* components */
+    --color-accent-bg-default: #FBDADA;
+    --color-accent-bg-hover: #F7BBBE;
+
+    /* borders */
+    --color-accent-bord-focus: #D22D4D;
+
+    /* --- FONTS --- */
+
+    /* weights */
+    --font-w-l: 700;
+    --font-w-m: 500;
+    --font-w-s: 400;
+
+    /* -- size -- */
+
+    /* headings / display */
+    --font-heading-s-1: 2rem;
+
+    /* body */
+    --font-body-s-default: 1rem;
+    --font-body-s-l: 1.125rem;
+
+    /* --- SPACING --- */
+
+    /* base unit */
+    --spacing-unit: 4px;
+
+    /* spacing */
+    --spacing-2u: calc(var(--spacing-unit)*2);
+    --spacing-4u: calc(var(--spacing-unit)*4);
+    --spacing-6u: calc(var(--spacing-unit)*6);
+
+}
+
 /* reset */
 * {
     margin: 0;
