@@ -98,8 +98,14 @@ p, span {
     justify-content: center;
     align-items: center;
 }
-.flex-between {
-    justify-content: space-between;
+.gap-l {
+    gap: var(--spacing-6u);
+}
+.gap-m {
+    gap: var(--spacing-4u);
+}
+.gap-s {
+    gap: var(--spacing-2u);
 }
 
 /* -- components -- */
