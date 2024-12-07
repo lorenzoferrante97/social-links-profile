@@ -9,7 +9,7 @@
     --color-neutral-bg-alt: #f5f5f5;
 
     /* text */
-    --color-neutral-text-default: #52474B;
+    --color-neutral-text-default: #a09297;
     --color-neutral-text-high: #171214;
     --color-accent-text-low: #de455c;
     --color-accent-text-mid: #D22D4D;
@@ -38,7 +38,7 @@
     --font-heading-s-1: 2rem;
 
     /* body */
-    --font-body-s-default: 1rem;
+    --font-body-s-default: 0.875rem;
     --font-body-s-l: 1.125rem;
 
     /* --- SPACING --- */
@@ -88,6 +88,7 @@ p, span {
     font-weight: var(--font-w-s);
     line-height: var(--font-lh-body);
     color: var(--color-neutral-text-default);
+    text-align: center;
 }
 .text-l-bold {
     font-size: var(--font-body-s-l);
