@@ -157,9 +157,18 @@ p, span {
     font-size: var(--font-body-s-l);
     font-weight: var(--font-w-l);
     background-color: var(--color-accent-bg-default);
+
+    transition: 0.2s ease-in;
 }
 .btn a {
     color: var(--color-accent-text-low);
+}
+/* button:hover styles */
+.btn:hover {
+    background-color: var(--color-accent-bg-hover);
+}
+.btn:hover .btn a {
+    color: var(--color-neutral-text-high);
 }
 
 /* ---- CSS ---- */
