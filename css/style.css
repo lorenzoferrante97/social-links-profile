@@ -146,3 +146,11 @@ p, span {
     font-weight: var(--font-w-l);
     color: var(--color-accent-text-low);
 }
+
+/* ---- CSS ---- */
+
+.header-img {
+    width: 80px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
