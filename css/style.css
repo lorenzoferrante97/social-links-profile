@@ -35,7 +35,8 @@
     /* -- size -- */
 
     /* headings / display */
-    --font-heading-s-1: 2rem;
+    --font-heading-s-1: 1.5rem;
+    --font-heading-s-1-tablet: 2rem;
 
     /* body */
     --font-body-s-default: 0.875rem;
@@ -50,6 +51,8 @@
     --spacing-2u: calc(var(--spacing-unit)*2);
     --spacing-4u: calc(var(--spacing-unit)*4);
     --spacing-6u: calc(var(--spacing-unit)*6);
+    --spacing-8u: calc(var(--spacing-unit)*8);
+    --spacing-10u: calc(var(--spacing-unit)*10);
 
 }
 
@@ -185,4 +188,24 @@ p, span {
     width: 80px;
     aspect-ratio: 1;
     border-radius: 50%;
+}
+
+/* ---- RESPONSIVE (mobile first) ---- */
+
+/* tablet */
+@media screen and (min-width: 577px) {
+
+    h1 {
+        font-size: var(--font-heading-s-1-tablet);
+    }
+
+    .container {
+        padding: var(--spacing-10u);
+    }
+
+    .header-img {
+        width: 120px;
+        aspect-ratio: 1;
+        border-radius: 50%;
+    }
 }
