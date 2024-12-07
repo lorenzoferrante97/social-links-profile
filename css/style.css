@@ -67,6 +67,12 @@ img {
     display: block;
     max-width: 100%;
 }
+a {
+    text-decoration: none;
+}
+button {
+    border: none;
+}
 
 html {
     font-family: "Urbanist", sans-serif;
@@ -142,10 +148,14 @@ p, span {
     justify-content: center;
     align-items: center;
 
-    padding: 8px 16px;
+    padding: 12px 24px;
+    border-radius: 900px;
 
     font-size: var(--font-body-s-l);
     font-weight: var(--font-w-l);
+    background-color: var(--color-accent-bg-default);
+}
+.btn a {
     color: var(--color-accent-text-low);
 }
 
