@@ -59,6 +59,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+figure {
+    display: inline-block;
+    overflow: hidden;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
 
 html {
     font-family: "Urbanist", sans-serif;
