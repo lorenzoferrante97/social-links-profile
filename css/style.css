@@ -28,6 +28,10 @@
     --font-w-m: 500;
     --font-w-s: 400;
 
+    /* line height */
+    --font-lh-headings: 125%;
+    --font-lh-body: 140%;
+
     /* -- size -- */
 
     /* headings / display */
