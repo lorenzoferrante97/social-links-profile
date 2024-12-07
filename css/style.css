@@ -11,7 +11,7 @@
     /* text */
     --color-neutral-text-default: #52474B;
     --color-neutral-text-high: #171214;
-    --color-neutral-text-low: #de455c;
+    --color-accent-text-low: #de455c;
     --color-accent-text-mid: #D22D4D;
 
     /* components */
@@ -67,8 +67,36 @@ html {
 /* --- GLOBAL STYLES --- */
 
 /* headings */
-
 h1 {
     font-size: var(--font-heading-s-1);
     font-weight: var(--font-w-l);
+    line-height: var(--font-lh-headings);
+    color: var(--color-neutral-text-high);
+}
+
+/* body text */
+p, span {
+    font-size: var(--font-body-s-default);
+    font-weight: var(--font-w-s);
+    line-height: var(--font-lh-body);
+    color: var(--color-neutral-text-default);
+}
+.text-l-bold {
+    font-size: var(--font-body-s-l);
+    font-weight: var(--font-w-l);
+}
+
+/* -- components -- */
+
+/* button */
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 8px 16px;
+
+    font-size: var(--font-body-s-l);
+    font-weight: var(--font-w-l);
+    color: var(--color-accent-text-low);
 }
