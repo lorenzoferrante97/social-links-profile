@@ -116,6 +116,16 @@ p, span {
     gap: var(--spacing-2u);
 }
 
+/* containers */
+.container-body {
+    width: 100%;
+    height: 100vh;
+}
+.container {
+    max-width: 92%;
+    margin: 0 auto;
+}
+
 /* -- components -- */
 
 /* button */
